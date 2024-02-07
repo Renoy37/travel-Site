@@ -15,9 +15,30 @@ function Form() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+    try {
+      const response = await fetch("http://localhost:3000/formData", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        console.log("Form data submitted successfully:", formData);
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        console.error("Failed to submit form data:", response.status);
+      }
+    } catch (error) {
+      console.error("Error submitting form data:", error);
+    }
   };
 
   return (
