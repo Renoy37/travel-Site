@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 import Places from "./components/Places";
 import SectionA from "./components/SectionA";
@@ -15,6 +16,7 @@ function App() {
       <SectionC />
       <SectionD />
       <Places />
+      <Form />
       <Footer />
     </div>
   );

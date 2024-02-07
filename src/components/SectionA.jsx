@@ -17,9 +17,11 @@ function SectionA() {
             Private Tours
           </h1>
           <p className="max-w-[600px] py-2 text-xl drop-shadow-2xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
-            suscipit animi molestias ipsam odio sint maxime porro dicta, tempora
-            aliquam.
+            Explore the world with our travel guides and tips. Whether you're
+            planning a relaxing beach getaway, an adventurous mountain trek, or
+            a cultural city tour, we've got you covered. Discover hidden gems,
+            local cuisine, and must-visit attractions to make your journey
+            unforgettable. Start your travel adventure today!
           </p>
           <button
             className="bg-white text-black w-32 hover:bg-gray-300

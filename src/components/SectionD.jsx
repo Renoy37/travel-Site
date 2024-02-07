@@ -9,9 +9,8 @@ function SectionD() {
       <div className="g:top-20 relative lg:col-span-1 col-span-2">
         <h1 className="text-3xl md:text-5xl font-bold">Travel Around Kenya</h1>
         <p className="text-lg md:text-2xl pt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, et
-          fuga! Animi optio tempore eveniet? Dignissimos consequuntur molestiae
-          perferendis consectetur.
+          Discover new destinations, create unforgettable memories, and embark
+          on your next adventure with our travel guides.
         </p>
       </div>
 

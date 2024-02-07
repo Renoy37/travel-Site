@@ -45,11 +45,15 @@ function SectionC() {
           Plan Your Next Trip With Us
         </h3>
         <p className="text-2xl py-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae.
+          Embark on a journey of discovery and adventure with our curated travel
+          experiences.
         </p>
         <p className="pb-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et inventore
-          facere assumenda obcaecati magni modi?
+          Experience the thrill of exploration and the joy of discovery with our
+          comprehensive travel resources. Whether you're seeking tranquil
+          retreats, adrenaline-fueled adventures, or cultural immersions, our
+          platform offers a wealth of information and inspiration to fuel your
+          wanderlust.
         </p>
         <div>
           <button className="border-black mr-4 hover:shadow-xl p-3">
